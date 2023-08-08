@@ -34,7 +34,6 @@ export default {
     // console.log('parentData:', this.parentDataData)
     // console.log(this.message)
     this.getResourceTree()
-    console.log('isEdit:', this.isEdit)
   },
   mounted() {
     this.monitoring1() // 注册监听事件
@@ -45,6 +44,7 @@ export default {
     getResourceTree(val) {
       this.parentData = val
       this.treeData = this.transform(val)
+      console.log('isEdit:', this.isEdit)
     },
     // setChecked(id, selection, child) {
     //   // this.$refs.tree

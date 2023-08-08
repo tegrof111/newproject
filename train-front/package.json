@@ -17,6 +17,7 @@
     "axios": "0.18.1",
     "core-js": "3.6.5",
     "e-icon-picker": "^1.1.7",
+    "echarts": "^5.4.3",
     "element-ui": "2.13.2",
     "js-cookie": "2.2.0",
     "less-loader": "^5.0.0",

@@ -11,6 +11,11 @@ import '@/icons'
 import '@/permission' // src/permission
 import FormDialog from '@/components/FormDialog/index.vue'
 import BossTree from '@/components/BossTree/index.vue'
+
+// 引入echarts
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts
+
 Vue.component('FormDialog', FormDialog)
 Vue.component('BossTree', BossTree)
 Vue.use(SlideVerify)

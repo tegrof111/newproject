@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="dashboard-container">
     <img src="../../assets/bashboardbg.jpg">
   </div>
@@ -30,4 +30,4 @@ export default {
 img{
   width: 100%;
 }
-</style>
+</style> -->
